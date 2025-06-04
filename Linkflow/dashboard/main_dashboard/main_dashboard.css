@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.left_section{
+    height: 100vh;
+    background-color: aqua;
+    width: 20vw;
+}
+
+.middle_section{
+    height: 100vh;
+    background-color: blue;
+    width: 55vw;
+}
+
+.right_section{
+    height: 100vh;
+    background-color: tomato;
+    width: 25vw;
+}
+
