@@ -1,0 +1,10 @@
+start => register => enter info => login => dashboard OR
+start => login => dashboard OR
+start => login => forgot password => enter email => send email => reset password => login => dashboard
+
+dashboard items =
+ 1-general
+ 2-my website
+ 3-veriler (girisler cikislar ve tum onunla alakali seyler)
+ 4-about
+ 5-settings

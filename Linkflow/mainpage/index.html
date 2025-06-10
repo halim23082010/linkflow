@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkFlow/mainpage</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/svg+xml" href="logolinkflow.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="///logo_clicked">
+            <p class="logo">
+                <svg width="40" height="40" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="0" width="200" height="200" rx="50" ry="50" fill="#63B4FF"/>
+                    <g fill="white" stroke="white" stroke-width="3">
+                        <circle cx="70" cy="100" r="15" />
+                        <circle cx="100" cy="80" r="15" />
+                        <circle cx="130" cy="100" r="15" />
+                        <path d="M85,100 C90,95 95,90 100,85" stroke="white" fill="none" />
+                        <path d="M115,85 C120,90 125,95 130,100" stroke="white" fill="none" />
+                    </g>
+                    <path d="M40,150 Q70,130 100,150 T160,150" stroke="white" stroke-width="3" fill="none" />
+                </svg>
+                <span class="logo-text">LinkFlow</span>
+            </p>
+            </a>
+
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="has-hover-menu">
+                        <a href="#">Features <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                        <div class="hover-menu">
+                            <ul>
+                                <li><a href="#">Feature A</a></li>
+                                <li><a href="#">Feature B</a></li>
+                                <li><a href="#">Feature C</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Pricing</a></li>
+                    <li class="has-hover-menu">
+                        <a href="#">About <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                        <div class="hover-menu">
+                            <ul>
+                                <li><a href="#">Our Team</a></li>
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">History</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="lore_btn">
+                <div class="auth-buttons">
+                    <a href="/auth/login_register/login.html" class="btn login-btn">Login</a>
+                    <a href="/auth/login_register/register.html" class="btn register-btn">Register</a>
+                </div>
+
+                <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="overlay"></div>
+
+    <nav class="sidebar" aria-hidden="true">
+        <ul class="sidebar-menu">
+            <li class="menu-item">
+                <a href="#" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item has-submenu">
+                <a href="#" class="menu-link" aria-expanded="false" aria-controls="features-submenu">
+                    Features
+                    <span class="arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </a>
+                <ul class="submenu" id="features-submenu">
+                    <li><a href="#">Feature 1</a></li>
+                    <li><a href="#">Feature 2</a></li>
+                    <li><a href="#">Feature 3</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Pricing</a>
+            </li>
+            <li class="menu-item has-submenu">
+                <a href="#" class="menu-link" aria-expanded="false" aria-controls="about-submenu">
+                    About
+                    <span class="arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </span>
+                </a>
+                <ul class="submenu" id="about-submenu">
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Mission</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+<script src="main.js"></script>
+</html>
+
+
+
+

@@ -1,0 +1,19 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Açık Mavi Yuvarlatılmış Arka Plan -->
+  <rect x="0" y="0" width="200" height="200" rx="50" ry="50" fill="#63B4FF"/>
+
+  <!-- Akış Efekti ve Zincir Halkaları -->
+  <g fill="white" stroke="white" stroke-width="3">
+    <!-- Zincir Halkaları -->
+    <circle cx="70" cy="100" r="15" />
+    <circle cx="100" cy="80" r="15" />
+    <circle cx="130" cy="100" r="15" />
+
+    <!-- Akış Çizgileri -->
+    <path d="M85,100 C90,95 95,90 100,85" stroke="white" fill="none" />
+    <path d="M115,85 C120,90 125,95 130,100" stroke="white" fill="none" />
+  </g>
+
+  <!-- Dalga (Akış Hisleri İçin) -->
+  <path d="M40,150 Q70,130 100,150 T160,150" stroke="white" stroke-width="3" fill="none" />
+</svg>
